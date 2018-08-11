@@ -1,0 +1,136 @@
+@charset "utf-8";
+/*动态资讯列表页*/
+.cp_right_list {
+width:770px;
+overflow:hidden;
+}
+.cp_right_list h1{
+font-size:16px;
+padding-left:25px;
+border-bottom:1px solid #333333;
+height:30px;
+color:#372a07;
+background:url(../img/listpiao.png) 0px 2px no-repeat;
+}
+.cp_right_list h1 .mbx {
+float:right;
+font-size:13px;
+padding-right:15px;
+}
+.cp_right_list ul{
+background-color:#f7f7f7;
+padding-left:35px;
+padding-right:35px;
+padding-bottom:25px;
+overflow: hidden;
+}
+.cp_right_list ul li {
+padding-top:20px;
+font-weight:bold;
+font-size:15px;
+border-bottom:1px  dashed  #CCCCCC;
+overflow:hidden;
+padding-bottom:20px;
+}
+.cp_right_list ul li span{
+float:right;
+color:#ba9e5d;
+}
+.cp_right_list ul li p {
+margin-top:15px;
+font-size:14px;
+line-height:24px;
+}
+.cp_right_list ul li img {
+float:left;
+margin-right:20px;
+overflow:hidden;
+}
+/*分页样式*/
+.page{
+background-color:#f7f7f7;
+overflow:hidden;
+}
+.pageStyle {
+float:right;
+margin:10px 30px 10px 0px;
+
+}
+.pageStyle .iconstyle{
+width:10px;
+height:20px;
+display:inline-block;
+border-right:1px dashed #666666;
+vertical-align: middle;
+padding-right:5px;
+}
+.pageStyle .page_first{
+background:url(../img/page_first.png) 0px 3px no-repeat;
+}
+.pageStyle p{
+display:inline-block;
+height:30px;
+line-height:30px;
+}
+.pageStyle .up{
+background:url(../img/page_first.png) -2px 3px no-repeat;
+}
+.pageStyle p a {
+margin-left:5px;
+margin-right:5px;
+}
+.pageStyle p span {
+color:#bb694b;
+font-weight:bold;
+}
+.pageStyle .next{
+background:url(../img/page_last.png) 2px 3px no-repeat;
+border-right:none;
+margin-right: 0px;
+}
+.pageStyle .page_last{
+background:url(../img/page_last.png) 7px 3px no-repeat;
+border-left:1px dashed #666666;
+padding-left:8px;
+}
+/*根雕作品列表页*/
+.cp_main_list .product_content_list{
+padding-left:0px;
+padding-right:0px;
+padding-bottom:25px;
+}
+.product_content_list li{
+width: 235px;
+height: 302px;
+float: left;
+padding-right: 10px;
+padding-left: 10px;
+_display: inline;
+padding-bottom: 30px;
+margin-bottom: 30px;
+border-bottom: 1px #c2c2c2 dashed;
+}
+.product_content_list li .product_content {
+    background: url(../img/bg.png);
+    padding: 4px;
+    overflow: hidden;
+    border: 2px #f7f7f7 solid;
+}
+.product_content_list li .product_content_list_pho {
+    width: 221px;
+    height: 234px;
+    float: left;
+    border: 1px #f7f7f7 solid;
+    margin-bottom: 6px;
+    background: #FFF;
+}
+.product_content_list li .product_list_title {
+    width: 213px;
+    height: 30px;
+    float: left;
+    background: #FFF;
+    padding: 4px 0 4px 10px;
+    line-height: 30px;
+	text-align:center;
+	color:#802008;
+}

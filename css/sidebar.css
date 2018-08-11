@@ -1,0 +1,48 @@
+@charset "utf-8";
+#main_bg {
+background:url(../img/index_bg.jpg) center -150px repeat-x;
+}
+.cp_main_list {
+width:1000px;
+margin:0 auto;
+overflow:hidden;
+padding-top:20px;
+}
+.cp_sidebar {
+width:190px;
+padding-left:5px;
+padding-right:5px;
+}
+.cp_sidebar h1{
+font-size:16px;
+padding-left:15px;
+border-bottom:1px solid #7d796e;
+height:30px;
+color:#372a07;
+}
+.cp_sidebar .jyjj{
+margin-top:15px;
+font-size:13px;
+line-height:24px;
+text-indent:26px;
+padding-bottom:15px;
+border-bottom:1px solid #7d796e;
+}
+.cp_sidebar h2{
+font-size:15px;
+padding-left:25px;
+border-bottom:1px solid #7d796e;
+height:38px;
+color:#2b2b2b;
+line-height:38px;
+}
+.cp_sidebar .tel{
+background:url(../img/teliphone.png) 0px 0px no-repeat;
+height:50px;
+padding-left:70px;
+margin-top:20px;
+line-height:20px;
+color:#000000;
+padding-top:2px;
+font-weight:900;
+}
